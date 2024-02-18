@@ -1,0 +1,13 @@
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\bin\Debug\net8.0\ArchivenewDomain.deps.json
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\bin\Debug\net8.0\ArchivenewDomain.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\bin\Debug\net8.0\ArchivenewDomain.pdb
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.AssemblyInfoInputs.cache
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.AssemblyInfo.cs
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.csproj.CoreCompileInputs.cache
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\refint\ArchivenewDomain.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.pdb
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ref\ArchivenewDomain.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\bin\Debug\net8.0\ArchivenewDomain.runtimeconfig.json
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.genruntimeconfig.cache

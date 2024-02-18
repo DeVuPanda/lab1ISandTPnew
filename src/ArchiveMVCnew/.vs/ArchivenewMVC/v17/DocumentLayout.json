@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\userreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\userreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\searchobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\searchobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\searchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\searchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\datereference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\datereference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\dbfacultyarchivenewcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\dbfacultyarchivenewcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserReference.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\UserReference.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\UserReference.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\UserReference.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\UserReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:54:06.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\User.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\User.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\User.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:53:58.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchObject.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\SearchObject.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\SearchObject.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\SearchObject.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\SearchObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:53:49.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchHistory.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\SearchHistory.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\SearchHistory.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\SearchHistory.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\SearchHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:53:12.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Reference.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\Reference.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Reference.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\Reference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:53:05.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DateReference.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\DateReference.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\DateReference.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\DateReference.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\DateReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:52:58.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Date.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\Date.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Date.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\Date.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:52:50.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Entity.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\Entity.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Entity.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:52:20.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbfacultyArchivenewContext.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\DbfacultyArchivenewContext.cs",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\DbfacultyArchivenewContext.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\DbfacultyArchivenewContext.cs",
+              "RelativeToolTip": "ArchivenewInfrastructure\\DbfacultyArchivenewContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:50:10.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
