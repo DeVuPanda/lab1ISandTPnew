@@ -11,3 +11,4 @@ C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\A
 C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ref\ArchivenewDomain.dll
 C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\bin\Debug\net8.0\ArchivenewDomain.runtimeconfig.json
 C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.genruntimeconfig.cache
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewDomain\obj\Debug\net8.0\ArchivenewDomain.sourcelink.json

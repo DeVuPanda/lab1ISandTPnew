@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ArchivenewDomain.Model;
 
-public partial class SearchHistory: Entity
+public partial class SearchHistory
 { 
     public int UserId { get; set; }
 

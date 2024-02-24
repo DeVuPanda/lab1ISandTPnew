@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ArchivenewDomain.Model;
 
-public partial class Reference: Entity
+public partial class Reference
 {
     public int ReferenceId { get; set; }
 

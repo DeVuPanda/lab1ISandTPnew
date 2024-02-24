@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ArchivenewDomain.Model;
 
-public partial class Date: Entity
+public partial class Date
 {
     public int DateId { get; set; }
 

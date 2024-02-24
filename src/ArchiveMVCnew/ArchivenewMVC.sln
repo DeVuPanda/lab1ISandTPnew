@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchivenewDomain", "ArchivenewDomain\ArchivenewDomain.csproj", "{1114AE12-E38C-4011-965B-0DEE77F4423D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchivenewDomain", "ArchivenewDomain\ArchivenewDomain.csproj", "{1114AE12-E38C-4011-965B-0DEE77F4423D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchivenewInfrastructure", "ArchivenewInfrastructure\ArchivenewInfrastructure.csproj", "{2840B110-3D32-4E52-996B-13EEEE8E6C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchivenewInfrastructure", "ArchivenewInfrastructure\ArchivenewInfrastructure.csproj", "{2840B110-3D32-4E52-996B-13EEEE8E6C16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1F5E84D-3BD1-4EDE-B017-CA613CF8CCC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

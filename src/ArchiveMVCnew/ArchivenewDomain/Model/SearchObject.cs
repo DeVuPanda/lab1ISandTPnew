@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ArchivenewDomain.Model;
 
-public partial class SearchObject: Entity
+public partial class SearchObject
 {
     public int SoId { get; set; }
 
