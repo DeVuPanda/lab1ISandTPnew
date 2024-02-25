@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ArchivenewInfrastructure",
+    "\\ArchivenewInfrastructure\\Views",
+    "\\ArchivenewInfrastructure\\Views\\Dates"
   ],
   "SelectedNode": "\\ArchivenewMVC.sln",
   "PreviewInSolutionExplorer": false
