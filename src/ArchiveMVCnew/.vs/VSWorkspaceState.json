@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ArchivenewDomain",
+    "\\ArchivenewDomain\\Model",
     "\\ArchivenewInfrastructure",
     "\\ArchivenewInfrastructure\\Views",
     "\\ArchivenewInfrastructure\\Views\\Dates"
   ],
-  "SelectedNode": "\\ArchivenewMVC.sln",
+  "SelectedNode": "\\ArchivenewInfrastructure\\Views\\Dates\\Add.cshtml",
   "PreviewInSolutionExplorer": false
 }
