@@ -42,7 +42,6 @@ public partial class DbfacultyArchivenewContext : DbContext
             entity.ToTable("Date");
 
             entity.Property(e => e.DateId)
-                .ValueGeneratedNever()
                 .HasColumnName("date_id");
             entity.Property(e => e.Date1).HasColumnName("date");
             entity.Property(e => e.Department)

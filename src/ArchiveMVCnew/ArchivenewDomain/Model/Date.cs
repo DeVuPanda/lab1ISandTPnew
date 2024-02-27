@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ArchivenewDomain.Model
 {
     public partial class Date
     {
-        [Required(ErrorMessage = "This field shouldn't be empty")]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int DateId { get; set; }
 
         [Required(ErrorMessage = "This field shouldn't be empty")]

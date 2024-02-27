@@ -25,24 +25,6 @@ namespace ArchivenewInfrastructure.Controllers
             return View(await _context.Dates.ToListAsync());
         }
 
-        // GET: Dates/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var date = await _context.Dates
-                .FirstOrDefaultAsync(m => m.DateId == id);
-            if (date == null)
-            {
-                return NotFound();
-            }
-
-            return View(date);
-        }
-
         // GET: Dates/Create
         public IActionResult Create()
         {
@@ -54,7 +36,7 @@ namespace ArchivenewInfrastructure.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DateId,FullName,Title,Faculty,Department,Format,ExtentOfMaterial,Date1")] Date date)
+        public async Task<IActionResult> Create([Bind("FullName,Title,Faculty,Department,Format,ExtentOfMaterial,Date1")] Date date)
         {
             if (ModelState.IsValid)
             {
@@ -64,6 +46,7 @@ namespace ArchivenewInfrastructure.Controllers
             }
             return View(date);
         }
+
 
         // GET: Dates/Edit/5
         public async Task<IActionResult> Edit(int? id)

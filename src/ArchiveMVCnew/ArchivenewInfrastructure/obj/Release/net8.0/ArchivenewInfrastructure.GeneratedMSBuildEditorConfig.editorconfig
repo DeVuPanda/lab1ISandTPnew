@@ -26,50 +26,46 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcQ3JlYXRlLmNzaHRtbA==
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Delete.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Edit.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Index.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Home/Index.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Home/Privacy.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Shared/Error.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/_ViewImports.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/_ViewStart.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ISandTPLab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Shared/_Layout.cshtml]
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wakxzbuiu4
