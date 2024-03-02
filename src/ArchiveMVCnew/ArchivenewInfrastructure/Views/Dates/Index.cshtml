@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Main page</h1>
 
 <p>
     <a asp-action="Create">Add new teacher</a>
@@ -59,9 +59,25 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.DateId">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.DateId">Delete</a>
+                <a href="#" onclick="confirmDelete(@item.DateId)">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+<script>
+    function confirmDelete(dateId) {
+        if (confirm("Are you sure you want to delete this?")) {
+            document.getElementById('deleteForm_' + dateId).submit();
+        }
+    }
+</script>
+
+@foreach (var item in Model)
+{
+    <form id="deleteForm_@item.DateId" method="post" asp-action="Delete" asp-route-id="@item.DateId">
+        <input type="hidden" name="id" value="@item.DateId" />
+        @Html.AntiForgeryToken()
+    </form>
+}

@@ -26,8 +26,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcQWRkLmNzaHRtbA==
+[C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/ISandTPlab1new/src/ArchiveMVCnew/ArchivenewInfrastructure/Views/Dates/Delete.cshtml]
