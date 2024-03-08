@@ -149,6 +149,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_state.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_state.css"
+    },
+    {
+      "Id": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_state.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_state.min.css"
+    },
+    {
       "Id": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },

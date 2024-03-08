@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\",
+  "WorkspaceRootPath": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\controllers\\datescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\controllers\\datescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewdomain\\model\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1114AE12-E38C-4011-965B-0DEE77F4423D}|ArchivenewDomain\\ArchivenewDomain.csproj|solutionrelative:archivenewdomain\\model\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\controllers\\datescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\controllers\\datescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Delete.cshtml",
-              "ToolTip": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Delete.cshtml",
-              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Delete.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAwDcAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T12:34:33.994Z",
+              "WhenOpened": "2024-03-08T10:28:50.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatesController.cs",
-              "DocumentMoniker": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
-              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
-              "ToolTip": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
-              "RelativeToolTip": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAuwH8AAAAsAAAA",
+              "DocumentIndex": 2,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Date.cs",
+              "RelativeDocumentMoniker": "ArchivenewDomain\\Model\\Date.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewDomain\\Model\\Date.cs",
+              "RelativeToolTip": "ArchivenewDomain\\Model\\Date.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T12:34:28.6Z",
+              "WhenOpened": "2024-03-08T10:22:03.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
-              "ToolTip": "C:\\Projects\\ISandTPlab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
               "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T12:33:27.731Z",
+              "WhenOpened": "2024-03-08T10:20:35.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Program.cs",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Program.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Program.cs",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T10:17:20.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatesController.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T12:34:28.6Z",
               "EditorCaption": ""
             }
           ]
