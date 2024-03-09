@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DJ7XP/64hM6TUKO5zRHNv9DZdWPXFJK+P6c5uUzkwRVzCrJdOk2aiavr1QW1ZXF9bDEhBm9O0rNM5IrVOPf/zQ==",
+  "dgSpecHash": "G0LbOdWUPsSM4SVJe+T5O9zyNavW1uR6pyMCDFHV8YT4h7ydHwX9XpP4aZ92p73CneufvcSdzKlfOPq1SoQqHQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Денис\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Денис\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Денис\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
     "C:\\Users\\Денис\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Денис\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Денис\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

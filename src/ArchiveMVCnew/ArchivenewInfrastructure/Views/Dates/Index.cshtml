@@ -9,7 +9,38 @@
 <p>
     <a asp-action="Create" class="btn btn-success">Add new teacher</a>
 </p>
-<table class="table">
+
+<style>
+    .table-custom {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+    }
+
+        .table-custom th, .table-custom td {
+            padding: 0.5rem;
+            vertical-align: top;
+            border-top: 1px solid #dee2e6;
+            text-align: left;
+        }
+
+        .table-custom thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+    .btn-sm-custom {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        border-radius: 0.2rem;
+        width: 60px; /* Reduced width */
+        margin-right: 5px; /* Reduced space between buttons */
+    }
+</style>
+
+<table class="table-custom">
     <thead>
         <tr>
             <th>
@@ -36,7 +67,6 @@
             <th></th>
         </tr>
     </thead>
-
     <tbody>
         @foreach (var item in Model)
         {
@@ -63,9 +93,9 @@
                     @Html.DisplayFor(modelItem => item.Date1)
                 </td>
                 <td>
-                    <a href="@Url.Action("Edit", new { id = item.DateId })" class="btn btn-primary btn-sm">Edit</a>
-                    <form asp-action="Delete" asp-route-id="@item.DateId" method="post" style="display:inline">
-                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this?')">Delete</button>
+                    <a href="@Url.Action("Edit", new { id = item.DateId })" class="btn btn-primary btn-sm-custom">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.DateId" method="post" style="display: inline;">
+                        <button type="submit" class="btn btn-danger btn-sm-custom" onclick="return confirm('Are you sure you want to delete this?')">Delete</button>
                     </form>
                 </td>
             </tr>
