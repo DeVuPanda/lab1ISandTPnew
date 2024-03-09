@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ArchivenewDomain.Model.Date>
+
+@{
+    ViewData["Title"] = "ReferenceIndex";
+}
+
+<h2>Search References</h2>
+
+
+<form method="get" action="@Url.Action("ReferenceIndex", "References")">
+    <div class="form-group">
+        <label for="searchTerm">Search Term:</label>
+        <input type="text" id="searchTerm" name="searchTerm" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="searchBy">Search By:</label>
+        <select id="searchBy" name="searchBy" class="form-control">
+            <option value="FullName">Full Name</option>
+            <option value="Title">Title</option>
+            <option value="Faculty">Faculty</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <h2>Search Results:</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Full Name
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Faculty
+                </th>
+                <th>
+                    Department
+                </th>
+                <th>
+                    Format
+                </th>
+                <th>
+                    The extent of material
+                </th>
+                <th>
+                    The date of publication
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var date in Model)
+            {
+                <tr>
+                    <td>
+                        @date.FullName
+                    </td>
+                    <td>
+                        @date.Title
+                    </td>
+                    <td>
+                        @date.Faculty
+                    </td>
+                    <td>
+                        @date.Department
+                    </td>
+                    <td>
+                        @date.Format
+                    </td>
+                    <td>
+                        @date.ExtentOfMaterial
+                    </td>
+                    <td>
+                        @date.Date1
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No records found.</p>
+}
