@@ -2,8 +2,32 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<style>
+    .image-background {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
 
+        .image-background img {
+            display: block;
+            width: 100%;
+            height: auto;
+            opacity: 0.5;
+        }
+
+        .image-background .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+        }
+</style>
+
+<div class="image-background">
+    <img src="https://images6.alphacoders.com/872/872784.jpg" alt="We can't show you the photo, sorry">
+    <div class="text-overlay">
+        <h2 class="display-4">Welcome to the Faculty Archive</h2>
+    </div>
+</div>

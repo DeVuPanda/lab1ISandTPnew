@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\controllers\\referencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\controllers\\referencescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\references\\referenceindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\references\\referenceindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T11:01:12.213Z",
+              "WhenOpened": "2024-03-09T20:36:00.377Z",
               "EditorCaption": ""
             },
             {
@@ -53,22 +49,9 @@
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\References\\ReferenceIndex.cshtml",
               "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\References\\ReferenceIndex.cshtml",
               "RelativeToolTip": "ArchivenewInfrastructure\\Views\\References\\ReferenceIndex.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAABkAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-08T17:11:26.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReferencesController.cs",
-              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\ReferencesController.cs",
-              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Controllers\\ReferencesController.cs",
-              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\ReferencesController.cs",
-              "RelativeToolTip": "ArchivenewInfrastructure\\Controllers\\ReferencesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T17:10:55.683Z",
+              "WhenOpened": "2024-03-09T11:31:27.905Z",
               "EditorCaption": ""
             }
           ]
