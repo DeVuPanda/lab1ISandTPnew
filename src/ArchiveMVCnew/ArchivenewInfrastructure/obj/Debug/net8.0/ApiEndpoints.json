@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ContainingType": "ArchivenewInfrastructure.Controllers.ChartController",
+    "Method": "GetFacultyData",
+    "RelativePath": "api/Chart/FacultyData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArchivenewInfrastructure.Controllers.Chart1Controller",
+    "Method": "GetDepartmentData",
+    "RelativePath": "api/Chart1/DepartmentData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
