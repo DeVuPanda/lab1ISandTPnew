@@ -40,7 +40,16 @@ namespace ArchivenewInfrastructure.Controllers
         {
             if (ModelState.IsValid)
             {
-                date.ExtentOfMaterial += " сторінок";
+                if (!IsFullNameValid(date.FullName))
+                {
+                    ModelState.AddModelError("FullName", "The full name should look like this \"Калениченко Денис Русланович\" and each word should be from capital letter and contains from 2 to 20 letters.");
+                    return View(date);
+                }
+
+                if (!string.IsNullOrWhiteSpace(date.ExtentOfMaterial))
+                {
+                    date.ExtentOfMaterial += " сторінок";
+                }
 
                 _context.Add(date);
                 await _context.SaveChangesAsync();
@@ -48,6 +57,25 @@ namespace ArchivenewInfrastructure.Controllers
             }
             return View(date);
         }
+
+        private bool IsFullNameValid(string fullName)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+                return false;
+
+            string[] words = fullName.Split(' ');
+            if (words.Length != 3)
+                return false;
+
+            foreach (string word in words)
+            {
+                if (word.Length < 2 || word.Length > 30 || !char.IsUpper(word[0]))
+                    return false;
+            }
+
+            return true;
+        }
+
 
 
         // GET: Dates/Edit/5
@@ -80,8 +108,17 @@ namespace ArchivenewInfrastructure.Controllers
 
             if (ModelState.IsValid)
             {
+                if (!IsFullNameValid(date.FullName))
+                {
+                    ModelState.AddModelError("FullName", "The full name should look like this \"Калениченко Денис Русланович\" and each word should be from capital letter and contains from 2 to 20 letters.");
+                    return View(date);
+                }
 
-                date.ExtentOfMaterial += " сторінок";
+                if (!string.IsNullOrWhiteSpace(date.ExtentOfMaterial))
+                {
+                    date.ExtentOfMaterial += " сторінок";
+                }
+
                 try
                 {
                     _context.Update(date);
