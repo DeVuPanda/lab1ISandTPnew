@@ -40,6 +40,8 @@ namespace ArchivenewInfrastructure.Controllers
         {
             if (ModelState.IsValid)
             {
+                date.ExtentOfMaterial += " сторінок";
+
                 _context.Add(date);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -78,6 +80,8 @@ namespace ArchivenewInfrastructure.Controllers
 
             if (ModelState.IsValid)
             {
+
+                date.ExtentOfMaterial += " сторінок";
                 try
                 {
                     _context.Update(date);
