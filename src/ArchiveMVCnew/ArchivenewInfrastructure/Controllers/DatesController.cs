@@ -46,11 +46,6 @@ namespace ArchivenewInfrastructure.Controllers
                     return View(date);
                 }
 
-                if (!string.IsNullOrWhiteSpace(date.ExtentOfMaterial))
-                {
-                    date.ExtentOfMaterial += " сторінок";
-                }
-
                 _context.Add(date);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -114,10 +109,6 @@ namespace ArchivenewInfrastructure.Controllers
                     return View(date);
                 }
 
-                if (!string.IsNullOrWhiteSpace(date.ExtentOfMaterial))
-                {
-                    date.ExtentOfMaterial += " сторінок";
-                }
 
                 try
                 {

@@ -26,7 +26,7 @@ namespace ArchivenewDomain.Model
         public string? Format { get; set; } 
 
         [Display(Name = "The extent of material")]
-        public string? ExtentOfMaterial { get; set; }
+        public int? ExtentOfMaterial { get; set; }
 
         [Display(Name = "The date of publication")]
         public DateOnly? Date1 { get; set; } 
