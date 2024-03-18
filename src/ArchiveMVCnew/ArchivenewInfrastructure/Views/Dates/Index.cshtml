@@ -87,8 +87,11 @@
                     @Html.DisplayFor(modelItem => item.Format)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ExtentOfMaterial)
-                    сторінок
+                    @if (item.ExtentOfMaterial != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.ExtentOfMaterial)
+                        <text> сторінок</text>
+                    }
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Date1)
