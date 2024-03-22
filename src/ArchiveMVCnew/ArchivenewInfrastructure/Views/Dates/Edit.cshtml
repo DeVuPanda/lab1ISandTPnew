@@ -49,7 +49,7 @@
             <div class="form-group">
                 <label asp-for="Format" class="control-label"></label>
                 <select asp-for="Format" class="form-control">
-                    <option value="Опліонально">Do not add the format</option>
+                    <option value="">Do not add the format</option>
                     <option value="Журнал">Журнал</option>
                     <option value="Посібник">Посібник</option>
                     <option value="Наукова Стаття">Наукова стаття</option>
@@ -64,7 +64,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Date1" class="control-label"></label>
-                <input asp-for="Date1" class="form-control" type="date" min="1700-01-01" max="2024-03-17" />
+                <input asp-for="Date1" class="form-control" type="date" min="1700-01-01" id="maxDateInput" />
                 <span asp-validation-for="Date1" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -118,6 +118,18 @@
         }
         updateDepartmentOptions();
         document.getElementById('facultySelect').addEventListener('change', updateDepartmentOptions);
+
+        function setMaxDate() {
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); 
+            var yyyy = today.getFullYear();
+
+            var maxDate = yyyy + '-' + mm + '-' + dd;
+            document.getElementById('maxDateInput').setAttribute('max', maxDate);
+        }
+
+        setMaxDate();
     </script>
 }
 
