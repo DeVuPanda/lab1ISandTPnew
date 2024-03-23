@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
               "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
               "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAuwGAAAAAAAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-18T18:05:52.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
               "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
               "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAuwDMAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-17T14:21:45.55Z",
               "EditorCaption": ""

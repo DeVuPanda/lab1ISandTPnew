@@ -63,11 +63,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Date1" class="control-label"></label>
-                <input asp-for="Date1" class="form-control" type="date" min="1700-01-01" id="maxDateInput" />
+                <input asp-for="Date1" class="form-control" id="dateInput" />
                 <span asp-validation-for="Date1" class="text-danger"></span>
+                <span id="dateError" class="text-danger"></span> 
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" id="createButton" /> 
             </div>
         </form>
     </div>
@@ -117,17 +118,45 @@
         }
         updateDepartmentOptions();
         document.getElementById('facultySelect').addEventListener('change', updateDepartmentOptions);
-        function setMaxDate() {
-            var today = new Date();
-            var yyyy = today.getFullYear();
-            var mm = String(today.getMonth() + 1).padStart(2, '0');
-            var dd = String(today.getDate()).padStart(2, '0');
-
-            var maxDate = yyyy + '-' + mm + '-' + dd;
-            document.getElementById('maxDateInput').setAttribute('max', maxDate);
+        function isValidDate(dateString) {
+            var regexDate = /^\d{4}-\d{2}-\d{2}$/;
+            return regexDate.test(dateString);
         }
 
-        setMaxDate();
+        function isDateAfter1700(dateString) {
+            var minDate = new Date('1700-01-01');
+            var inputDate = new Date(dateString);
+            return inputDate >= minDate;
+        }
+
+        function isDateBeforeOrEqualToToday(dateString) {
+            var inputDate = new Date(dateString);
+            var today = new Date();
+            return inputDate <= today;
+        }
+
+        document.getElementById('dateInput').addEventListener('input', function () {
+            var dateInput = this.value;
+            var errorSpan = document.getElementById('dateError');
+            var createButton = document.getElementById('createButton');
+
+            if (dateInput.trim() === '') { 
+                errorSpan.textContent = '';
+                createButton.disabled = false; 
+            } else if (!isValidDate(dateInput)) {
+                errorSpan.textContent = 'Please enter a valid date in YYYY-MM-DD format.';
+                createButton.disabled = true;
+            } else if (!isDateAfter1700(dateInput)) {
+                errorSpan.textContent = 'Please enter a date after 1700-01-01.';
+                createButton.disabled = true;
+            } else if (!isDateBeforeOrEqualToToday(dateInput)) {
+                errorSpan.textContent = 'Please enter today\'s date or a date before today.';
+                createButton.disabled = true;
+            } else {
+                errorSpan.textContent = '';
+                createButton.disabled = false;
+            }
+        });
     </script>
 }
 
