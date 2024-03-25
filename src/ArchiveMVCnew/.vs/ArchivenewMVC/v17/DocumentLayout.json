@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\controllers\\datescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\controllers\\datescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|c:\\projects\\isandtplab1new\\src\\archivemvcnew\\archivenewinfrastructure\\views\\dates\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2840B110-3D32-4E52-996B-13EEEE8E6C16}|ArchivenewInfrastructure\\ArchivenewInfrastructure.csproj|solutionrelative:archivenewinfrastructure\\views\\dates\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +38,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T11:44:55.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DatesController.cs",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAiwM8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T11:29:39.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
               "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
               "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Create.cshtml",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJgAAAA7AAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAJsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-18T18:05:52.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
               "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
               "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJoAAAA7AAAA",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAgwKQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T14:21:45.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T14:21:45.55Z"
             }
           ]
         }

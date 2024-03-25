@@ -557,3 +557,10 @@ C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\
 C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\obj\Debug\net8.0\ArchivenewInfrastructure.sourcelink.json
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\ClosedXML.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\Irony.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Projects\ISandTPLab1new\src\ArchiveMVCnew\ArchivenewInfrastructure\bin\Debug\net8.0\XLParser.dll
