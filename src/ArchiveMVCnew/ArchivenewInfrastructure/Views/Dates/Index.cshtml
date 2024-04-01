@@ -12,20 +12,20 @@
 
 <div>
     <h3>Оберіть Excel-файл для завантаження в Data</h3>
-    @using (Html.BeginForm("Import", "Dates", FormMethod.Post, new { enctype = "multipart/form-data", id = "frm-excel" }))
+    @using (Html.BeginForm("Export", "Dates", FormMethod.Post, new { enctype = "multipart/form-data", id = "frm-excel" }))
     {
         <div>
             Завантажте Excel-файл:
-            <input type="file" name="fileExcel" id="fileExcel" />
+            <input type="file" name="fileExcel" id="fileExcel" accept=".xlsx, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" title=" Choose the file"/>
             <div>
-                <input type="submit" value="Завантажити" />
+                <input type="submit" value="Export file" />
             </div>
         </div>
     }
 </div>
 <div>
     <h3>Завантаження інформації в файл</h3>
-    <a asp-action="Export">завантажити</a>
+    <a asp-action="Import" class="btn btn-success">Import file</a>
 </div>
 
 <style>
@@ -243,11 +243,8 @@
                     console.error('Error fetching department data:', error);
                 });
         }
+      
     </script>
 }
-
-
-
-
 
 

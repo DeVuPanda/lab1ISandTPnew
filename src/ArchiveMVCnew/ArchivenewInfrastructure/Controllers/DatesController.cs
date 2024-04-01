@@ -173,7 +173,7 @@ namespace ArchivenewInfrastructure.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Import(IFormFile fileExcel)
+        public async Task<IActionResult> Export(IFormFile fileExcel)
         {
             if (fileExcel == null || fileExcel.Length == 0)
             {
@@ -193,7 +193,7 @@ namespace ArchivenewInfrastructure.Controllers
                 using (var workBook = new XLWorkbook(stream))
                 {
                     var worksheet = workBook.Worksheets.First();
-                    foreach (var row in worksheet.RowsUsed().Skip(1)) 
+                    foreach (var row in worksheet.RowsUsed().Skip(1))
                     {
                         var date = new Date
                         {
@@ -218,7 +218,7 @@ namespace ArchivenewInfrastructure.Controllers
         }
 
 
-        public async Task<IActionResult> Export()
+        public async Task<IActionResult> Import()
         {
             using (var workbook = new XLWorkbook())
             {
