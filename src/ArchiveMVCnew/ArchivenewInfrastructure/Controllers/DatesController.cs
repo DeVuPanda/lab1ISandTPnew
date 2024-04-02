@@ -195,16 +195,25 @@ namespace ArchivenewInfrastructure.Controllers
                     var worksheet = workBook.Worksheets.First();
                     foreach (var row in worksheet.RowsUsed().Skip(1))
                     {
+                        var fullName = row.Cell(1).Value.ToString();
+                        var title = row.Cell(2).Value.ToString();
+
+                        if (IsDuplicate( title))
+                        {
+                            ModelState.AddModelError("", $"Cannot upload the Excel file because it contains a duplicate entry for {fullName} with title {title}.");
+                            ViewData["ErrorMessage"] = "You can not export this excel file because it contains the duplicates";
+                            return View("Index", await _context.Dates.ToListAsync()); 
+                        }
+
                         var date = new Date
                         {
-                            FullName = row.Cell(1).Value.ToString(),
-                            Title = row.Cell(2).Value.ToString(),
+                            FullName = fullName,
+                            Title = title,
                             Faculty = row.Cell(3).Value.ToString(),
                             Department = row.Cell(4).Value.ToString(),
                             Format = row.Cell(5).Value.ToString(),
                             ExtentOfMaterial = int.Parse(row.Cell(6).Value.ToString()),
                             Date1 = DateOnly.FromDateTime(row.Cell(7).GetDateTime())
-
                         };
 
                         _context.Dates.Add(date);
@@ -215,6 +224,11 @@ namespace ArchivenewInfrastructure.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
+        }
+
+        private bool IsDuplicate( string title)
+        {
+            return _context.Dates.Any(d =>  d.Title == title);
         }
 
 

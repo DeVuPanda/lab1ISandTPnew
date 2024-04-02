@@ -243,8 +243,17 @@
                     console.error('Error fetching department data:', error);
                 });
         }
+
+        window.onload = function () {
+            var errorMessage = "@Html.Raw(ViewData["ErrorMessage"])"; 
+            if (errorMessage) {
+                alert(errorMessage);
+            }
+        };
       
     </script>
 }
+
+
 
 
