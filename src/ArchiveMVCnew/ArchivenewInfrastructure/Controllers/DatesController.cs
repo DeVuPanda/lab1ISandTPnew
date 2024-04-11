@@ -198,11 +198,9 @@ namespace ArchivenewInfrastructure.Controllers
                         var fullName = row.Cell(1).Value.ToString();
                         var title = row.Cell(2).Value.ToString();
 
-                        if (IsDuplicate( title))
+                        if (IsDuplicate(title))
                         {
-                            ModelState.AddModelError("", $"Cannot upload the Excel file because it contains a duplicate entry for {fullName} with title {title}.");
-                            ViewData["ErrorMessage"] = "You can not export this excel file because it contains the duplicates";
-                            return View("Index", await _context.Dates.ToListAsync()); 
+                            continue;
                         }
 
                         var date = new Date
@@ -226,11 +224,10 @@ namespace ArchivenewInfrastructure.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool IsDuplicate( string title)
+        private bool IsDuplicate(string title)
         {
-            return _context.Dates.Any(d =>  d.Title == title);
+            return _context.Dates.Any(d => d.Title == title);
         }
-
 
         public async Task<IActionResult> Import()
         {
