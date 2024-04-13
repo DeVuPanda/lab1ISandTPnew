@@ -189,6 +189,7 @@ namespace ArchivenewInfrastructure.Controllers
 
             bool hasDuplicates = false;
             int duplicateCount = 0;
+            List<string> duplicateInfo = new List<string>();
 
             using (var stream = new MemoryStream())
             {
@@ -205,6 +206,7 @@ namespace ArchivenewInfrastructure.Controllers
                         if (IsDuplicate(title, fullName, date))
                         {
                             hasDuplicates = true;
+                            duplicateInfo.Add($"FullName: {fullName}, Title: {title}, Date1: {date}");
                             duplicateCount++;
                             continue;
                         }
@@ -229,7 +231,8 @@ namespace ArchivenewInfrastructure.Controllers
             if (duplicateCount > 0)
             {
                 TempData["HasDuplicates"] = true; 
-                TempData["DuplicateCount"] = duplicateCount; 
+                TempData["DuplicateCount"] = duplicateCount;
+                TempData["DuplicateInfo"] = duplicateInfo;
             }
 
             return RedirectToAction(nameof(Index));

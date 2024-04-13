@@ -247,9 +247,14 @@
         $(document).ready(function () {
             var hasDuplicates = @Html.Raw(Json.Serialize(TempData["HasDuplicates"] ?? false));
             var duplicateCount = @Html.Raw(Json.Serialize(TempData["DuplicateCount"] ?? 0));
+            var duplicateInfo = @Html.Raw(Json.Serialize(TempData["DuplicateInfo"] ?? new List<string>()));
 
             if (hasDuplicates) {
-                alert("The file contains " + duplicateCount + " duplicates.");
+                var message = "The file contains " + duplicateCount + " duplicates:\n";
+                duplicateInfo.forEach(function (info) {
+                    message += info + "\n";
+                });
+                alert(message);
             }
         });
 
