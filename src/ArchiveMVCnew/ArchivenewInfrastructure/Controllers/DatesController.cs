@@ -175,6 +175,7 @@ namespace ArchivenewInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Export(IFormFile fileExcel)
         {
+            int duplicateCount = 0;
             if (fileExcel == null || fileExcel.Length == 0)
             {
                 ModelState.AddModelError("", "Please select an Excel file.");
@@ -197,13 +198,15 @@ namespace ArchivenewInfrastructure.Controllers
                     {
                         var fullName = row.Cell(1).Value.ToString();
                         var title = row.Cell(2).Value.ToString();
+                        var date = DateOnly.FromDateTime(row.Cell(7).GetDateTime());
 
-                        if (IsDuplicate(title))
+                        if (IsDuplicate(title, fullName, date))
                         {
+                            duplicateCount++;
                             continue;
                         }
 
-                        var date = new Date
+                        var newDate = new Date
                         {
                             FullName = fullName,
                             Title = title,
@@ -211,22 +214,26 @@ namespace ArchivenewInfrastructure.Controllers
                             Department = row.Cell(4).Value.ToString(),
                             Format = row.Cell(5).Value.ToString(),
                             ExtentOfMaterial = int.Parse(row.Cell(6).Value.ToString()),
-                            Date1 = DateOnly.FromDateTime(row.Cell(7).GetDateTime())
+                            Date1 = date
                         };
 
-                        _context.Dates.Add(date);
+                        _context.Dates.Add(newDate);
                     }
                 }
             }
-
             await _context.SaveChangesAsync();
+
+
+            ViewData["DuplicateCount"] = duplicateCount.ToString();
+
 
             return RedirectToAction(nameof(Index));
         }
 
-        private bool IsDuplicate(string title)
+
+        private bool IsDuplicate(string title, string fullName, DateOnly date)
         {
-            return _context.Dates.Any(d => d.Title == title);
+            return _context.Dates.Any(d => d.Title == title && d.FullName == fullName && d.Date1 == date);
         }
 
         public async Task<IActionResult> Import()

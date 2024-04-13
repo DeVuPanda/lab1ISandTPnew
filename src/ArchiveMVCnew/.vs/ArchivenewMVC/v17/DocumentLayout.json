@@ -18,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAgwPgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T11:44:55.192Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -30,26 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
-              "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
-              "RelativeToolTip": "ArchivenewInfrastructure\\Views\\Dates\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T11:44:55.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DatesController.cs",
               "DocumentMoniker": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
               "RelativeDocumentMoniker": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
               "ToolTip": "C:\\Projects\\ISandTPLab1new\\src\\ArchiveMVCnew\\ArchivenewInfrastructure\\Controllers\\DatesController.cs",
               "RelativeToolTip": "ArchivenewInfrastructure\\Controllers\\DatesController.cs",
-              "ViewState": "AQIAANQAAAAAAAAAAAAQwOAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T11:29:39.362Z",
               "EditorCaption": ""
