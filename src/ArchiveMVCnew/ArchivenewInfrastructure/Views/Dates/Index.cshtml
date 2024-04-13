@@ -244,10 +244,14 @@
                 });
         }
 
-        var duplicateCount = parseInt('@ViewData["DuplicateCount"]');
+        $(document).ready(function () {
+            var hasDuplicates = @Html.Raw(Json.Serialize(TempData["HasDuplicates"] ?? false));
+            var duplicateCount = @Html.Raw(Json.Serialize(TempData["DuplicateCount"] ?? 0));
 
-        if (duplicateCount > 0) {
-            alert("There is " + duplicateCount + " duplicates in ");
-        }
+            if (hasDuplicates) {
+                alert("The file contains " + duplicateCount + " duplicates.");
+            }
+        });
+
     </script>
 }

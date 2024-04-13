@@ -175,7 +175,6 @@ namespace ArchivenewInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Export(IFormFile fileExcel)
         {
-            int duplicateCount = 0;
             if (fileExcel == null || fileExcel.Length == 0)
             {
                 ModelState.AddModelError("", "Please select an Excel file.");
@@ -187,6 +186,9 @@ namespace ArchivenewInfrastructure.Controllers
                 ModelState.AddModelError("", "Please select an Excel file.");
                 return View();
             }
+
+            bool hasDuplicates = false;
+            int duplicateCount = 0;
 
             using (var stream = new MemoryStream())
             {
@@ -202,6 +204,7 @@ namespace ArchivenewInfrastructure.Controllers
 
                         if (IsDuplicate(title, fullName, date))
                         {
+                            hasDuplicates = true;
                             duplicateCount++;
                             continue;
                         }
@@ -223,9 +226,11 @@ namespace ArchivenewInfrastructure.Controllers
             }
             await _context.SaveChangesAsync();
 
-
-            ViewData["DuplicateCount"] = duplicateCount.ToString();
-
+            if (duplicateCount > 0)
+            {
+                TempData["HasDuplicates"] = true; 
+                TempData["DuplicateCount"] = duplicateCount; 
+            }
 
             return RedirectToAction(nameof(Index));
         }
